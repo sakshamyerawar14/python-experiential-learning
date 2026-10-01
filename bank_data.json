@@ -20,6 +20,13 @@
             "balance": 12923.0,
             "status": "ACTIVE",
             "created_at": "2026-09-22 10:57:07"
+        },
+        "8035337080": {
+            "name": "salsiff",
+            "pin_hash": "013b3b7b70423f7783a673c14aaff4256bc9a43cc37ebf7c73b8a4b2cc5b0f84",
+            "balance": 200.0,
+            "status": "ACTIVE",
+            "created_at": "2026-10-01 16:08:40"
         }
     },
     "transactions": [
@@ -85,6 +92,15 @@
             "balance_after": 12923.0,
             "description": "Cash withdrawal",
             "timestamp": "2026-09-22 10:59:41"
+        },
+        {
+            "transaction_id": "TXN2026100116084028D09D",
+            "account_number": "8035337080",
+            "type": "DEPOSIT",
+            "amount": 200.0,
+            "balance_after": 200.0,
+            "description": "Initial deposit",
+            "timestamp": "2026-10-01 16:08:40"
         }
     ]
 }
