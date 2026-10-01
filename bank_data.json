@@ -6,6 +6,20 @@
             "balance": 123099.0,
             "status": "ACTIVE",
             "created_at": "2026-09-19 01:12:36"
+        },
+        "7628803026": {
+            "name": "sam",
+            "pin_hash": "c62bd5d97008851e88adf7b6611e7f0af5fb18fea1627af6a257aca1d098c760",
+            "balance": 123.0,
+            "status": "ACTIVE",
+            "created_at": "2026-09-19 11:58:51"
+        },
+        "7460637430": {
+            "name": "saksahm",
+            "pin_hash": "c62bd5d97008851e88adf7b6611e7f0af5fb18fea1627af6a257aca1d098c760",
+            "balance": 12923.0,
+            "status": "ACTIVE",
+            "created_at": "2026-09-22 10:57:07"
         }
     },
     "transactions": [
@@ -35,6 +49,42 @@
             "balance_after": 123099.0,
             "description": "Cash deposit",
             "timestamp": "2026-09-19 01:15:41"
+        },
+        {
+            "transaction_id": "TXN20260919115851B41E89",
+            "account_number": "7628803026",
+            "type": "DEPOSIT",
+            "amount": 123.0,
+            "balance_after": 123.0,
+            "description": "Initial deposit",
+            "timestamp": "2026-09-19 11:58:51"
+        },
+        {
+            "transaction_id": "TXN20260922105707DB0A38",
+            "account_number": "7460637430",
+            "type": "DEPOSIT",
+            "amount": 12222.0,
+            "balance_after": 12222.0,
+            "description": "Initial deposit",
+            "timestamp": "2026-09-22 10:57:07"
+        },
+        {
+            "transaction_id": "TXN20260922105936D3B743",
+            "account_number": "7460637430",
+            "type": "DEPOSIT",
+            "amount": 1000.0,
+            "balance_after": 13222.0,
+            "description": "Cash deposit",
+            "timestamp": "2026-09-22 10:59:36"
+        },
+        {
+            "transaction_id": "TXN202609221059411EB2C2",
+            "account_number": "7460637430",
+            "type": "WITHDRAW",
+            "amount": 299.0,
+            "balance_after": 12923.0,
+            "description": "Cash withdrawal",
+            "timestamp": "2026-09-22 10:59:41"
         }
     ]
 }
